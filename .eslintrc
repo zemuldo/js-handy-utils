@@ -1,0 +1,45 @@
+{
+  'extends': 'airbnb-base',
+  'env': {
+    'browser': true,
+    'node': true,
+    'es6': true
+  },
+  'rules': {
+    "no-unused-vars": [
+      "error",
+      {
+          "varsIgnorePattern": "[iI]gnored",
+          "vars": "all",
+          "args": "after-used",
+          "ignoreRestSiblings": true,
+          "argsIgnorePattern": "[iI]gnored"
+      }
+  ],
+    'max-len': ['error', 120, 2, {
+      'ignoreUrls': true,
+      'ignoreComments': true,
+      'ignoreStrings': true,
+      'ignoreTemplateLiterals':true
+    }],
+    'no-else-return': 0,
+    'no-underscore-dangle': 0,
+    'no-await-in-loop': 0,
+    no-param-reassign: 0,
+    'no-plusplus': 0,
+    func-names: ["error", "as-needed"],
+    'generator-star-spacing': ['error', {'before': false, 'after': false}],
+    'guard-for-in':"off",
+    'no-restricted-syntax': [
+      'error',
+      {
+        selector: 'LabeledStatement',
+        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+      },
+      {
+        selector: 'WithStatement',
+        message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+      },
+    ],
+  },
+}
