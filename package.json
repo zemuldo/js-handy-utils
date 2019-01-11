@@ -1,0 +1,24 @@
+{
+  "name": "lazy-handy-utils",
+  "version": "1.0.0",
+  "description": "lazy handy utils for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zemuldo/lazy-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "lazy-handy-utils",
+    "cartesian"
+  ],
+  "author": "Danstan Otieno Onyango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zemuldo/lazy-utils/issues"
+  },
+  "homepage": "https://github.com/zemuldo/lazy-utils#readme"
+}

@@ -1,1 +1,1 @@
-# lazy-utils
+# lazy-handy-utils
