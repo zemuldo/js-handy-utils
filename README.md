@@ -1,1 +1,1 @@
-# lazy-handy-utils
+# js-handy-utils

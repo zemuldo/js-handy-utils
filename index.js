@@ -1,4 +1,4 @@
-const cartesian = require('./cartesian');
+const cartesian = require('./arrayUtils/cartesian');
 
 module.exports = {
     cartesian,
